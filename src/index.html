@@ -7,16 +7,9 @@
     <script>
     ajaxSuite.request({
         url: "data.json",
-        method: 'POST',
+        method: 'GET',
         callback: callback,
-        async: true,
-        params: {
-            Station_From: 'KOAA',
-            Station_To: 'ADI',
-            DataSource: '0',
-            Language: '0',
-            Cache: 'true',
-        }
+        async: true
     })
     .done(callback)
     .fail(callback)
@@ -30,7 +23,6 @@
 
 <body>
     <h1>My First Heading</h1>
-    <myHero>My First Hero</myHero>
 </body>
 
 </html>
