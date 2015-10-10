@@ -1,0 +1,22 @@
+{
+  "name": "ajaxSuite",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sumitgupta99/ajaxSuite",
+  "authors": [
+    "Sumit Gupta <lorince99@gmail.com>"
+  ],
+  "description": "The Super \"Ajaxoic\" framework.",
+  "main": "dist/ajaxSuite.min.js",
+  "keywords": [
+    "ajax",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
