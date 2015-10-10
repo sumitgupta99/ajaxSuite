@@ -13,6 +13,7 @@
             options.method = options.method || 'GET';
             options.params = options.params || {};
             options.async = options.async || 1;
+            options.contentType = options.contentType || 'application/x-www-form-urlencoded';
 
             try {
                 //Construct the ajax request
@@ -22,7 +23,7 @@
                 } else {
                     x.open(options.method, options.url, options.async);
                     x.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-                    x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                    x.setRequestHeader('Content-type', options.contentType);
                 }
                 x.onreadystatechange = function() {
                     ajaxSuite.progressCallback && ajaxSuite.progressCallback(this.responseText, this);
@@ -93,6 +94,10 @@
         }
 
         function getParams(data, url) {
+
+            if((typeof a).toUpperCase() != "OBJECT")
+                return data;
+
             var arr = [],
                 str;
             for (var name in data) {
