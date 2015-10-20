@@ -11,7 +11,6 @@ The Super "Ajaxoic" framework.
 ajaxSuite.request({
         url: "data.json",
         method: 'GET',
-        callback: callback,
         async: true
     })
     .done(callback)
