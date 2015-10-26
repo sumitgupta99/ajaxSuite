@@ -1,12 +1,15 @@
 # ajaxSuite
-The Super "Ajaxoic" framework.
+> The Super "Ajaxoic" framework.
 
-###Getting Started
+###Introduction:
+> This tiny javascript library can be used to trigger cross browser ajax requests. Its incredibly small size, ability to be chained and managed javascript resources make it really powerful in cases where you just need a library to trigger ajax requests. This library does not have any dependancy.
+
+###Getting Started:
   - Include the ajaxSuite.min.js file in ur html file.
-  - Call the ajaxSuite Javascript Object in ur Javascript Code and pass on the relevant information
+  - Call the ajaxSuite Javascript Object in ur Javascript Code and pass on the relevant configuration.
   - That's all. See, that was easy.
 
-###Example
+###Example:
 ```sh
 ajaxSuite.request({
         url: "data.json",
@@ -21,9 +24,8 @@ ajaxSuite.request({
         debugger;
     }
 ```
+###Version:
+> 1.0.0
 
-###Version
-1.0.0
-
-###License
-MIT License
+###License:
+> MIT License
