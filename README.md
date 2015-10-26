@@ -2,7 +2,7 @@
 > The Super "Ajaxoic" framework.
 
 ###Introduction:
-> This tiny javascript library can be used to trigger cross browser ajax requests. Its incredibly small size, ability to be chained and managed javascript resources make it really powerful in cases where you just need a library to trigger ajax requests. This library does not have any dependancy.
+> This tiny javascript library can be used to trigger cross browser ajax requests. Its incredibly small size, ability to be chained and managed javascript resources make it really powerful in cases where you just need a library to trigger ajax requests. This library does not have any dependency.
 
 ###Getting Started:
   - Include the ajaxSuite.min.js file in ur html file.
